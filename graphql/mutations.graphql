@@ -1,0 +1,46 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateArticle($input: CreateArticleInput!) {
+  createArticle(input: $input) {
+    author
+    channel_description
+    channel_link
+    channel_title
+    channel_version
+    id
+    link
+    published
+    summary
+    term
+    title
+  }
+}
+mutation UpdateArticle($input: UpdateArticleInput!) {
+  updateArticle(input: $input) {
+    author
+    channel_description
+    channel_link
+    channel_title
+    channel_version
+    id
+    link
+    published
+    summary
+    term
+    title
+  }
+}
+mutation DeleteArticle($input: DeleteArticleInput!) {
+  deleteArticle(input: $input) {
+    author
+    channel_description
+    channel_link
+    channel_title
+    channel_version
+    id
+    link
+    published
+    summary
+    term
+    title
+  }
+}

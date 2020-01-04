@@ -1,0 +1,46 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateArticle {
+  onCreateArticle {
+    author
+    channel_description
+    channel_link
+    channel_title
+    channel_version
+    id
+    link
+    published
+    summary
+    term
+    title
+  }
+}
+subscription OnUpdateArticle {
+  onUpdateArticle {
+    author
+    channel_description
+    channel_link
+    channel_title
+    channel_version
+    id
+    link
+    published
+    summary
+    term
+    title
+  }
+}
+subscription OnDeleteArticle {
+  onDeleteArticle {
+    author
+    channel_description
+    channel_link
+    channel_title
+    channel_version
+    id
+    link
+    published
+    summary
+    term
+    title
+  }
+}
